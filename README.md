@@ -3,7 +3,7 @@ Anisotropic diffusion filtering for AWGN removal
 
 ## Models
   
-  - Linear diffusion filter: 𝜕𝑡𝑢 = Δ𝑢. This fiter smoothes smoothes indiscriminately the image a time passes, blurring edges. It is equivalent to Gaussian         filtering with 𝜎 = √(2𝑡).
+  - Linear diffusion filter (heat equation): 𝜕𝑡𝑢 = Δ𝑢. This fiter smoothes smoothes indiscriminately the image a time passes, blurring edges. It is equivalent to Gaussian filtering with 𝜎 = √(2𝑡).
   
   - Total Variation (TV) filter: stops the diffusion in the regions where the integral of the absolute gradient (total variation) of the signal is high. This allows to preserve edges and meaningful features.
   

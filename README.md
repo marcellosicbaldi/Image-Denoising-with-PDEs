@@ -14,3 +14,7 @@ The main challenge of this project is the implementation of a different numerica
   - Perona Malik filter, new: equivalent to PM original, but different numerical implementation. The parabolic term is discretized with the Method of Lines (MOL), while the advection term with an Upwind scheme.
   
 ## Results
+
+![Alt text](https://github.com/marcellosicbaldi/Image-Denoising-with-PDEs/blob/main/hand.jpg)
+
+![Alt text](https://github.com/marcellosicbaldi/Image-Denoising-with-PDEs/blob/main/lena.jpg)
